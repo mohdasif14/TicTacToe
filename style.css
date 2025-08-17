@@ -52,3 +52,21 @@ h1{
 .win {
   background-color: #4caf50;
 }
+
+/* Responsive tweaks for very small screens */
+@media (max-width: 500px) {
+    .tictac {
+        max-width: 96vw;
+    }
+    .box {
+        font-size: 12vw;
+    }
+    h1 {
+        margin-bottom: 40px;
+        font-size: 16vw;
+    }
+    #resetbtn {
+        width: 60vw;
+        max-width: 95vw;
+    }
+}
