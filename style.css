@@ -55,6 +55,9 @@ h1{
 
 /* Responsive tweaks for very small screens */
 @media (max-width: 500px) {
+    body {
+       overflow: hidden;
+    }
     .tictac {
         max-width: 96vw;
     }
@@ -62,8 +65,8 @@ h1{
         font-size: 12vw;
     }
     h1 {
-        margin-bottom: 40px;
-        font-size: 16vw;
+        margin-bottom: 20px;
+        font-size: 12vw;
     }
     #resetbtn {
         width: 60vw;
